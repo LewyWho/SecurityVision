@@ -1,0 +1,8 @@
+[
+  {
+    "model_name": "efficientdet",
+    "best_val_accuracy": 71.8,
+    "final_train_accuracy": 99.95,
+    "final_val_accuracy": 70.8
+  }
+]

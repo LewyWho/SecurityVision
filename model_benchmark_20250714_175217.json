@@ -1,0 +1,54 @@
+{
+  "benchmark_info": {
+    "timestamp": "20250714_175217",
+    "device": "cpu",
+    "image_size": 512,
+    "num_runs": 100
+  },
+  "results": [
+    {
+      "model_name": "yolo",
+      "success": true,
+      "total_params": 10093918,
+      "trainable_params": 10093918,
+      "model_size_mb": 38.50524139404297,
+      "avg_inference_time": 0.24227956533432007,
+      "std_inference_time": 0.01708523244308406,
+      "min_inference_time": 0.21702790260314941,
+      "max_inference_time": 0.3496983051300049,
+      "fps": 4.1274632411532775,
+      "device": "cpu"
+    },
+    {
+      "model_name": "ssd",
+      "success": true,
+      "total_params": 24146382,
+      "trainable_params": 24146382,
+      "model_size_mb": 92.11113739013672,
+      "avg_inference_time": 1.1274911665916443,
+      "std_inference_time": 0.04270009900464205,
+      "min_inference_time": 1.0583868026733398,
+      "max_inference_time": 1.274958610534668,
+      "fps": 0.8869249087094452,
+      "device": "cpu"
+    },
+    {
+      "model_name": "efficientdet",
+      "success": true,
+      "total_params": 7381381,
+      "trainable_params": 7381381,
+      "model_size_mb": 28.157733917236328,
+      "avg_inference_time": 0.1996754765510559,
+      "std_inference_time": 0.009794810833690848,
+      "min_inference_time": 0.17977547645568848,
+      "max_inference_time": 0.23051929473876953,
+      "fps": 5.00812627205277,
+      "device": "cpu"
+    }
+  ],
+  "ranking": [
+    "efficientdet",
+    "yolo",
+    "ssd"
+  ]
+}

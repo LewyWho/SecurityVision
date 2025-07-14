@@ -1,0 +1,48 @@
+{
+  "total_images": 20,
+  "total_detections": 20,
+  "class_statistics": {
+    "creeping": {
+      "count": 2,
+      "avg_confidence": 0.9999980926513672
+    },
+    "crawling": {
+      "count": 5,
+      "avg_confidence": 0.9999976634979248
+    },
+    "stooping": {
+      "count": 3,
+      "avg_confidence": 0.9999999602635702
+    },
+    "climbing": {
+      "count": 6,
+      "avg_confidence": 0.9832143684228262
+    },
+    "other": {
+      "count": 4,
+      "avg_confidence": 0.9999994337558746
+    }
+  },
+  "detections_per_image": {
+    "test_images/00001.JPG": 1,
+    "test_images/00002.JPG": 1,
+    "test_images/00003.JPG": 1,
+    "test_images/00004.JPG": 1,
+    "test_images/00005.JPG": 1,
+    "test_images/00007.JPG": 1,
+    "test_images/00011.JPG": 1,
+    "test_images/00017.JPG": 1,
+    "test_images/00020.JPG": 1,
+    "test_images/00023.JPG": 1,
+    "test_images/00025.JPG": 1,
+    "test_images/00031.JPG": 1,
+    "test_images/00037.JPG": 1,
+    "test_images/00041.JPG": 1,
+    "test_images/00045.JPG": 1,
+    "test_images/00050.JPG": 1,
+    "test_images/00058.JPG": 1,
+    "test_images/00498.JPG": 1,
+    "test_images/00499.JPG": 1,
+    "test_images/00500.JPG": 1
+  }
+}

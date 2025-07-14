@@ -1,0 +1,8 @@
+[
+  {
+    "model_name": "yolo",
+    "best_val_accuracy": 71.8,
+    "final_train_accuracy": 100.0,
+    "final_val_accuracy": 71.0
+  }
+]
